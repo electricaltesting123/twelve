@@ -1,0 +1,48 @@
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form p1 {
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+
+form p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+form input[type="radio"] {
+    margin-right: 20px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+form button[type="submit"] {
+    background-color: #4CAF50;
+    margin: 100 auto;
+    color: #fff;
+    padding: 32px 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
